@@ -24,4 +24,7 @@ The code is evoked by *.bat file for Windows.
 - Drag and drop your files on the OpenMX_Viewer_Opener.bat to visualize on OpenMX Viewer.
 
 ### For MacOS and Linux users
-- python ${PATH_OpenMX_Viewer_Opener}/src/upload_file.py ${INPUTFILE} ${PATH_OpenMX_Viewer_Opener}
+- Execute the follwing command with proper enviromental variables.
+```
+python ${PATH_OpenMX_Viewer_Opener}/src/upload_file.py ${INPUTFILE} ${PATH_OpenMX_Viewer_Opener}
+```
