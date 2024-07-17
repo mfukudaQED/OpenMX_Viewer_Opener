@@ -11,7 +11,7 @@ The code is evoked by *.bat file for Windows.
 ## Requirement
 - Python
   - selenium
-- Gooogle Chrome
+- Google Chrome
 
 ## Installation
 - Install python
