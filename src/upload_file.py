@@ -3,6 +3,12 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
+
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
+
+
+
 import time
 import base64
 import sys
@@ -17,7 +23,8 @@ print(path_openmx_viewer_opener)
 # ブラウザを起動
 #options = webdriver.ChromeOptions()
 #driver = webdriver.Chrome(options=options)
-driver = webdriver.Chrome()
+#driver = webdriver.Chrome()
+driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 driver.maximize_window()
 
 # 指定のURLにアクセス

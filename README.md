@@ -11,12 +11,20 @@ The code is evoked by *.bat file for Windows.
 ## Requirement
 - Python
   - selenium
+  - webdriver-manager
 - Google Chrome
 
 ## Installation
-- Install python
+- Install python for windows
+  - "pip" is also needed.
+    - `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py`
+    - `python get-pip.py`
+    - `python -m pip install -U pip`
 - Install selenium python module
   - When the selenium installed, google chrome and chrome driver are installed automatically.
+  - `python -m pip install selenium`
+- Install webdriver-manager
+  - `python -m pip install webdriver-manager`
 
 ## How to Use
 ### For Windows users
